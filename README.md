@@ -1,2 +1,2 @@
-# docker-electon-builder-java
-Electron builder image with Wine &amp; java
+# Docker electon-builder with java
+This Docker image is developed for build and sign Windows binaries using electron-builder & JSign
