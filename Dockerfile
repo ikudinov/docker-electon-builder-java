@@ -1,7 +1,7 @@
 FROM electronuserland/builder:wine
 
 # Install JDK
-RUN apt-get update && apt-get install default-jdk -y
+RUN apt-get update && apt-get install default-jdk libcurl3 -y
 
 # Cleanup
 RUN rm -rf /var/lib/apt/lists/* && rm -rf /src/*.deb
